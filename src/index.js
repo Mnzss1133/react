@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './Primeiro';
 import reportWebVitals from './reportWebVitals';
+import Primeiro from './Primeiro';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Primeiro/>
+    <Primeiro/>
+    <Primeiro/>
   </React.StrictMode>
 );
 
